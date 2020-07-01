@@ -17,11 +17,13 @@ import com.wakaleo.gameoflife.domain.Universe;
  *
  * GameController.java
  * Controller to navigate the buttons on the game pages
+ * new commit
  */
 @Controller
 @RequestMapping("/game")
 public class GameController {
 	// For generating random thread sleep times
+	
     private Random randomGenerator = new Random();
 
 	// Clicking the "New Game" button on the main page loads the cell seletion page
